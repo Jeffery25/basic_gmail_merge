@@ -40,25 +40,25 @@ https://code.google.com/archive/p/gmail-delay-send/wikis/GmailDelayFAQ_8.wiki
 
 "Status" column inputs / outputs:
   => Triggers an action:
-  "ready": send an email
-  "draft": make a draft
-  "bump": send a follow up
-  "draft bump": draft a follow up
-  "force draft bump": draft follow up despite error message.
-  "test": send to a test address.
-  "test bump": bump to a test address.
+    - "ready": send an email
+    - "draft": make a draft
+    - "bump": send a follow up
+    - "draft bump": draft a follow up
+    - "force draft bump": draft follow up despite error message.
+    - "test": send to a test address.
+    - "test bump": bump to a test address.
 
   => Information purposes:
-  "sent": email was sent by the script
-  "programmed": made a draft for a delayed send
-  "drafted": a draft has been created
-  "tested": sent to test address
-  "standby": no action to take yet (an empty column will be replaced by this tag)
-  "done": no need to do anything on this thread anymore
-  "..... bump": same as above, but for a follow up
-  "..... test": same as above but to a test address
+    - "sent": email was sent by the script
+    - "programmed": made a draft for a delayed send
+    - "drafted": a draft has been created
+    - "tested": sent to test address
+    - "standby": no action to take yet (an empty column will be replaced by this tag)
+    - "done": no need to do anything on this thread anymore
+    - "..... bump": same as above, but for a follow up
+    - "..... test": same as above but to a test address
 
   => Error messages
-  "bump fail": could not send the bump (Check the original email)
-  "input_error": mistake in the input (Check Log console for possible bugs)
-  "incorrect ID": the given Thread ID doesn't return anything, delete it.
+    - "bump fail": could not send the bump (Check the original email)
+    - "input_error": mistake in the input (Check Log console for possible bugs)
+    - "incorrect ID": the given Thread ID doesn't return anything, delete it.
