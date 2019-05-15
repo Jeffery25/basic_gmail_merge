@@ -26,7 +26,7 @@ function sendEmails() {
   // boolean for knowing if we are testing or not
   // email address sent to if testing
   var test = false;
-  var testEmail = "durand.jeffery@gmail.com";
+  var testEmail = "your.email@address.com";
   
   // Create one JavaScript object per row of data and row of templates.
   objects = getRowsData(dataSheet, dataRange);
