@@ -31,10 +31,10 @@ On the second put the following columns:
   - the "status" column is a sort of "command line", put in the action you wish to take. Prompts it can take below.
   - don't touch "thread ID or "Emails Sent"
   
-5) ALWAYS TEST before sending emails out. Use the "test" or "test bump" command for this purpose. 
+4) ALWAYS TEST before sending emails out. Use the "test" or "test bump" command for this purpose. 
 For this to work you need to add your email to the code manually in the place of the placeholder "your.email@address.com"
 
-4) There is a snooze and a send later option but it must be configured with other scripts. For send later, find the other script here:
+5) There is a snooze and a send later option but it must be configured with other scripts. For send later, find the other script here:
 https://code.google.com/archive/p/gmail-delay-send/wikis/GmailDelayFAQ_8.wiki
 
 
